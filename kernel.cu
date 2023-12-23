@@ -118,7 +118,5 @@ main() {
 			printf("[%d] %d\n", i, result[i]);
 		}*/
 
-		//CPU放進kernel
-
 	}
 }
