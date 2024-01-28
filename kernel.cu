@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include<stdio.h>
 #include<stdlib.h>
 #include<cstdio>
@@ -112,7 +112,7 @@ main() {
 		printf("CPU to GPU: %f\n", htd / 1000);
 		printf("GPU: %f\n", kernel / 1000);
 		printf("GPU to CPU: %f\n", dth / 1000);
-		printf("CPU in kernel: %f\n", cpukernel / 1000);
+		//printf("CPU in kernel: %f\n", cpukernel / 1000);
 		//輸出result
 		/*for (int i = 0; data > i; i++) {
 			printf("[%d] %d\n", i, result[i]);
